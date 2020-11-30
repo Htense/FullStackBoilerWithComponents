@@ -8,12 +8,13 @@ const Profile = () => {
     <>
     <h1>Profile</h1>
       <div className='profile-wrapper'>
-
-      <div className='profile'>
-          <img className='profile-pic' src={`https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Noto_Emoji_KitKat_263a.svg/200px-Noto_Emoji_KitKat_263a.svg.png`}/>
+      <div className='each-profile'>
+      <div className='profile-picture'>
+          <img src={`https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Noto_Emoji_KitKat_263a.svg/200px-Noto_Emoji_KitKat_263a.svg.png`}/>
         <div className='profile-name-plate'>
-          <span className='profile-name'>hortense</span>
-          <span className='profile-sign'>feeling fabulous</span>
+          <p className='profile-name'>hortense</p>
+          <p className='profile-sign'>feeling fabulous</p>
+        </div>
         </div>
         </div>
     </div>

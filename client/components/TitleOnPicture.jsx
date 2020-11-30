@@ -5,13 +5,12 @@ const TitleOnPicture = () => {
   return (
     <>
     <h1>TitleOnPicture</h1>
-    <div className='each-walk'>
-          <div className= 'walk-image-and-title'>
-              <img className='walk-image'src='https://www.doc.govt.nz/globalassets/images/places/northland/waipoua-forest/te-matua-ngahere-walk/walkway-1200.jpg' alt="description"/>
+    <div >
+          <div className= 'polaroid-image-and-title'>
+              <img src='https://www.doc.govt.nz/globalassets/images/places/northland/waipoua-forest/te-matua-ngahere-walk/walkway-1200.jpg' alt="description"/>
 
-              <div className= 'walk-title-div'>
-              <span className= 'walk-title' >OTARI WILTONS BUSH</span>
-              <div><h5>Off Mairangi road</h5></div>
+              <div className= 'polaroid-title-div'>
+              <span className= 'polaroid-title' >TEXT ON IMAGE</span>
               </div>
           </div>
          </div> {/*end of each walk div*/}

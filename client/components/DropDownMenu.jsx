@@ -3,24 +3,19 @@ import React from 'react'
 
 const DropDownMenu = () => {
   return (
-    <div>
-   
-    <h1>DropDownMenu</h1>
-        <select  className='input' value="sign" type="text" >
-            <option value="">Select</option>
-            <option value="Aries">Aries</option>
-            <option value="Cancer">Cancer</option>
-            <option value="Leo">Leo</option>
-            <option value="Pisces">Pisces</option>
-            <option value="Gemini">Gemini</option>
-            <option value="Sagittarius">Sagittarius</option>
-            <option value="Virgo">Virgo</option>
-            <option value="Taurus">Taurus</option>
-            <option value="Libra">Libra</option>
-            <option value="Capricorn">Capricorn</option>
-            <option value="Scorpio">Scorpio</option>
-            <option value="Aquarius">Aquarius</option>
-          </select>
+
+    <div className= 'drop-down-menu'>
+      <h1>drop-down-menu</h1>
+        <select value="sign" type="text" >
+          <option value="">Select</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button type="submit">Submit</button>
+        
     </div>
   )
 }
